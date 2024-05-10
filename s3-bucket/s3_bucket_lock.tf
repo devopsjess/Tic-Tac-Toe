@@ -4,7 +4,7 @@ provider "aws" {
 }
 # create s3 bucket
 resource "aws_s3_bucket" "wutyee-s3" {
-  bucket = "sayantan-tic-tac-toe" # change this
+  bucket = "wutyee-s3" # change this
 }
 
 # configure state lock for eks .tfstate file.
